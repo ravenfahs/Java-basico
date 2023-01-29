@@ -35,7 +35,7 @@ public class Tipos_de_datos_java {
 
     public static void imprimir(byte dato1,short dato2,int dato3,long dato4,float dato5,double dato6,char dato7,String dato8,boolean dato9) {
         System.out.println("...Tipos de Datos Primitivos...");
-        System.out.println("   Tipos de Datos Númericos y punto flotante   ");
+        System.out.println("   Tipos de Datos Numéricos y punto flotante   ");
         System.out.println("Es un Byte: "+dato1+"\n"+"Es un Short: "+dato2+"\n"+"Es un Int: "+dato3+"\n"+"Es un Long: "+dato4+"\n"+
                 "Es un Float: "+dato5+"\n"+"Es un Double: "+dato6);
         System.out.println("   Tipos de Datos Caracteres   ");
@@ -49,7 +49,7 @@ public class Tipos_de_datos_java {
 
     public static void imprimirPares(int[] pares) {
         System.out.println("...Tipos de Datos Estructurados Array...");
-        System.out.println("Numeros pares:");
+        System.out.println("Números pares:");
         for (int pare : pares) {
             System.out.println(pare);
         }
