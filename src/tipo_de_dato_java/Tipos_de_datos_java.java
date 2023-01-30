@@ -29,7 +29,7 @@ public class Tipos_de_datos_java {
 
         imprimir(dato1,dato2,dato3,dato4,dato5,dato6,dato7,dato8,dato9);
         imprimirPares(pares);
-        imprimaturimparts(impares);
+        imprimirImpares(impares);
         imprimir(matriz);
     }
 
@@ -55,11 +55,11 @@ public class Tipos_de_datos_java {
         }
     }
 
-    public static void imprimaturimparts(int[] impares) {
+    public static void imprimirImpares(int[] impares) {
         System.out.println("...Tipos de Datos Estructurados Array...");
-        System.out.println("Numeros impares:");
-        for (int impire : impares) {
-            System.out.println(impire);
+        System.out.println("Números impares:");
+        for (int empire : impares) {
+            System.out.println(empire);
         }
     }
 
